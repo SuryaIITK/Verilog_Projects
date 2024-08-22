@@ -1,2 +1,2 @@
 # Verilog_Projects
-Mtech verilog projects
+Mtech VLSI verilog projects
