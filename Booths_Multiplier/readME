@@ -1,1 +1,24 @@
+# Booth Multiplier with Verilog
+
+This repository contains a Verilog implementation of a Booth multiplier, which is a binary multiplication algorithm designed to improve the performance of multiplication operations. The project includes both the data path and control path designs.
+
+## Features
+
+- **Data Path Implementation**: 
+  - Handles arithmetic operations and data manipulation using shift registers, an ALU, and a counter.
+  
+- **Control Path Implementation**: 
+  - Manages the sequence of operations and controls the data path components through various states.
+
+- **Testbenches**: 
+  - Validates functionality and performance of the multiplier through comprehensive simulation.
+
+- **Synthesis Results**: 
+  - Ensures practical feasibility of the design with detailed synthesis reports.
+
+## File Descriptions
+
+- `booth_data_path.v` : Contains the data path implementation including shift registers, ALU, and counter.
+- `booth_control_path.v` : Contains the control path implementation with state management and control signals.
+- `Booths_Multiplier_tb.v` : Testbench for simulating the Booth multiplier and monitoring its operation.
 
