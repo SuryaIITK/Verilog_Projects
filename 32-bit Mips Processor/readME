@@ -1,1 +1,7 @@
+5-Stage MIPS32 Pipeline Processor: Designed and implemented a 5-stage MIPS32 pipeline in Verilog, covering instruction fetch, decode, execution, memory access, and write-back stages.
 
+Instruction Decoding and Execution: Developed decoding logic for various instruction types (ALU, LOAD, STORE, BRANCH), ensuring correct execution and handling of operations.
+
+Memory and Register File Integration: Integrated a 32x32 register file and 1024x32 memory, with hazard control mechanisms for efficient pipeline operation.
+
+Testbench Development and Simulation: Created and executed testbenches to validate processor functionality, simulating clock cycles and verifying outputs through waveform analysis.
